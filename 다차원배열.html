@@ -1,0 +1,21 @@
+<script>
+    let fruit=["banana","apple","orange","graph"];
+    let car=["AUDI","Benz","BMW", "KIA"];
+    let skill=["Oracle","Java","React","Spring"];
+
+    let box=[]; //size 0
+    //box에 과일 일차원 배열 채워넣기 
+    box.push(fruit); //공간을 새롭게 추가하면서 넣기 
+    box.push(car); //자동차 일차원배열 추가 
+    box.push(skill); //기술 일차원배열 추가 
+
+    for(let a=0;a<box.length;a++){ //층수만큼
+        for(let i=0;i<box[a].length;i++){ //호수만큼
+            document.write(box[a][i]);
+        }
+        document.write("<br>");
+    }
+
+
+
+</script>
